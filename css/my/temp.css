@@ -1,0 +1,28 @@
+.-xx-b {
+    border: 1px solid black;
+}
+.-xx-b-1 {
+    border: 1px solid red;
+}
+.-xx-b-2 {
+    border: 1px solid green;
+}
+.-xx-b-3 {
+    border: 1px solid blue;
+}
+
+.-xx-bg {
+    background-color: rgba(200,200,200,0.8);
+}
+
+.-xx-bg-1 {
+    background-color: rgba(140,140,140,0.8);
+}
+
+.-xx-bg-2 {
+    background-color: rgba(80,90,100,0.8);
+}
+
+.-xx-remove {
+    display: none;
+}
