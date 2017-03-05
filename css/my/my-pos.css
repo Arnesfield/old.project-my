@@ -1,0 +1,28 @@
+/* specify x then y */
+.-pos.-center, .-pos.-left, .-pos.-right {
+    display: flex;
+}
+.-pos.-center {
+    justify-content: center;
+}
+.-pos.-left {
+    justify-content: flex-start;
+}
+.-pos.-right {
+    justify-content: flex-end;
+}
+.-pos.-center > .-this.-top,
+.-pos.-left > .-this.-top,
+.-pos.-right > .-this.-top {
+    align-self: flex-start;
+}
+.-pos.-center > .-this.-bottom,
+.-pos.-left > .-this.-bottom,
+.-pos.-right > .-this.-bottom {
+    align-self: flex-end;
+}
+.-pos.-center > .-this.-middle,
+.-pos.-left > .-this.-middle,
+.-pos.-right > .-this.-middle {
+    align-self: center;
+}
