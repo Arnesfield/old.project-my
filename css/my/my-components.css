@@ -1,0 +1,57 @@
+/*
+*  http://www.positioniseverything.net/easyclearing.html
+*  credits
+*  on .-row:after
+*/
+
+.-row { width: 100%; }
+.-row:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.-row > .-col {
+    float: left;
+    height: 100%;
+}
+
+.-dim-1 { background-color: rgba(0,0,0,0.1); }
+.-dim,
+.-dim-2 { background-color: rgba(0,0,0,0.2); }
+.-dim-3 { background-color: rgba(0,0,0,0.3); }
+.-dim-4 { background-color: rgba(0,0,0,0.4); }
+.-dim-5 { background-color: rgba(0,0,0,0.5); }
+.-dim-6 { background-color: rgba(0,0,0,0.6); }
+.-dim-7 { background-color: rgba(0,0,0,0.7); }
+.-dim-8 { background-color: rgba(0,0,0,0.8); }
+.-dim-9 { background-color: rgba(0,0,0,0.9); }
+
+.-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.-m-top,
+.-m-y { margin-top: 0.5em; }
+.-m-bottom,
+.-m-y { margin-bottom: 0.5em; }
+.-m-left,
+.-m-x { margin-left: 0.5em; }
+.-m-right,
+.-m-x { margin-right: 0.5em; }
+.-m-all { margin: 0.5em; }
+
+.-p-top,
+.-p-y { padding-top: 0.5em; }
+.-p-bottom,
+.-p-y { padding-bottom: 0.5em; }
+.-p-left,
+.-p-x { padding-left: 0.5em; }
+.-p-right,
+.-p-x { padding-right: 0.5em; }
+.-p-all { padding: 0.5em; }
+
