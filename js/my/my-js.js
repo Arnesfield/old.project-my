@@ -9,11 +9,11 @@ function getClasses(e, n, regex) {
     return classes;
 }
 
-// my transfer
+// my add
 // this lets you transfer styles from parent to child (or even grandchildren)
 while ($('[class*="--"]').length) {
     $('[class*="--"]').each(function(i, obj) {
-        $(this).children().addClass( getClasses($(this), 1, /--/) );
+        $(this).children().not('.-no-my').addClass(getClasses($(this), 1, /--/));
     });
 }
 
