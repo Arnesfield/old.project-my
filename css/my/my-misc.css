@@ -1,0 +1,17 @@
+.-dim-1 { background-color: rgba(0,0,0,0.1); }
+.-dim,
+.-dim-2 { background-color: rgba(0,0,0,0.2); }
+.-dim-3 { background-color: rgba(0,0,0,0.3); }
+.-dim-4 { background-color: rgba(0,0,0,0.4); }
+.-dim-5 { background-color: rgba(0,0,0,0.5); }
+.-dim-6 { background-color: rgba(0,0,0,0.6); }
+.-dim-7 { background-color: rgba(0,0,0,0.7); }
+.-dim-8 { background-color: rgba(0,0,0,0.8); }
+.-dim-9 { background-color: rgba(0,0,0,0.9); }
+
+.-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
