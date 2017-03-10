@@ -1,0 +1,19 @@
+.-m-top,
+.-m-y { margin-top: 0.5em; }
+.-m-bottom,
+.-m-y { margin-bottom: 0.5em; }
+.-m-left,
+.-m-x { margin-left: 0.5em; }
+.-m-right,
+.-m-x { margin-right: 0.5em; }
+.-m-all { margin: 0.5em; }
+
+.-p-top,
+.-p-y { padding-top: 0.5em; }
+.-p-bottom,
+.-p-y { padding-bottom: 0.5em; }
+.-p-left,
+.-p-x { padding-left: 0.5em; }
+.-p-right,
+.-p-x { padding-right: 0.5em; }
+.-p-all { padding: 0.5em; }
