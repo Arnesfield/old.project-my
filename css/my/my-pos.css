@@ -2,22 +2,22 @@
 .-pos.-flex {
     display: flex;
 }
-.-pos.-center {
+.-center {
     justify-content: center;
 }
-.-pos.-left {
+.-left {
     justify-content: flex-start;
 }
-.-pos.-right {
+.-right {
     justify-content: flex-end;
 }
-.-pos.-flex > .-pos.-top {
+.-pos.-flex > .-top {
     align-self: flex-start;
 }
-.-pos.-flex > .-pos.-bottom {
+.-pos.-flex > .-bottom {
     align-self: flex-end;
 }
-.-pos.-flex > .-pos.-middle {
+.-pos.-flex > .-middle {
     align-self: center;
 }
 
