@@ -1,5 +1,5 @@
 /* specify x then y */
-.-pos.-center, .-pos.-left, .-pos.-right {
+.-pos.-flex {
     display: flex;
 }
 .-pos.-center {
@@ -11,19 +11,13 @@
 .-pos.-right {
     justify-content: flex-end;
 }
-.-pos.-center > .-pos.-top,
-.-pos.-left > .-pos.-top,
-.-pos.-right > .-pos.-top {
+.-pos.-flex > .-pos.-top {
     align-self: flex-start;
 }
-.-pos.-center > .-pos.-bottom,
-.-pos.-left > .-pos.-bottom,
-.-pos.-right > .-pos.-bottom {
+.-pos.-flex > .-pos.-bottom {
     align-self: flex-end;
 }
-.-pos.-center > .-pos.-middle,
-.-pos.-left > .-pos.-middle,
-.-pos.-right > .-pos.-middle {
+.-pos.-flex > .-pos.-middle {
     align-self: center;
 }
 
