@@ -14,22 +14,45 @@
 
 /* letter spacing */
 .-l-space-sm {
-    letter-spacing: 0.125rem;
-}
-.-l-space-md {
     letter-spacing: 0.25rem;
 }
-.-l-space-lg {
+.-l-space,
+.-l-space-md {
     letter-spacing: 0.5rem;
+}
+.-l-space-lg {
+    letter-spacing: 1rem;
+}
+.-l-space-xl {
+    letter-spacing: 1.5rem;
 }
 
 /* word spacing */
 .-w-space-sm {
-    word-spacing: 0.125rem;
-}
-.-w-space-md {
     word-spacing: 0.25rem;
 }
-.-w-space-lg {
+.-w-space,
+.-w-space-md {
     word-spacing: 0.5rem;
+}
+.-w-space-lg {
+    word-spacing: 1rem;
+}
+.-w-space-xl {
+    word-spacing: 1.5rem;
+}
+
+/* line height */
+.-lh-sm {
+    line-height: 2.75rem;
+}
+.-lh,
+.-lh-md {
+    line-height: 3rem;
+}
+.-lh-lg {
+    line-height: 3.5rem;
+}
+.-lh-xl {
+    line-height: 4rem;
 }
