@@ -1,0 +1,24 @@
+/* alignment */
+.-t-center {
+    text-align: center;
+}
+.-t-justify {
+    text-align: justify;
+}
+.-t-left {
+    text-align: left;
+}
+.-t-right {
+    text-align: right;
+}
+
+/* letter spacing */
+.-l-space-sm {
+    letter-spacing: 0.125rem;
+}
+.-l-space-md {
+    letter-spacing: 0.25rem;
+}
+.-l-space-lg {
+    letter-spacing: 0.5rem;
+}
