@@ -22,3 +22,14 @@
 .-l-space-lg {
     letter-spacing: 0.5rem;
 }
+
+/* word spacing */
+.-w-space-sm {
+    word-spacing: 0.125rem;
+}
+.-w-space-md {
+    word-spacing: 0.25rem;
+}
+.-w-space-lg {
+    word-spacing: 0.5rem;
+}
