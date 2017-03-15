@@ -5,6 +5,7 @@
 .-m-y-sm {
     margin-top: 0.5rem;
 }
+.-m-top,
 .-m-top-md,
 .-m-y-md {
     margin-top: 1rem;
@@ -27,6 +28,7 @@
 .-m-y-sm {
     margin-bottom: 0.5rem;
 }
+.-m-bottom,
 .-m-bottom-md,
 .-m-y-md {
     margin-bottom: 1rem;
@@ -49,6 +51,7 @@
 .-m-x-sm {
     margin-left: 0.5rem;
 }
+.-m-left,
 .-m-left-md,
 .-m-x-md {
     margin-left: 1rem;
@@ -71,6 +74,7 @@
 .-m-x-sm {
     margin-right: 0.5rem;
 }
+.-m-right,
 .-m-right-md,
 .-m-x-md {
     margin-right: 1rem;
@@ -92,6 +96,7 @@
 .-m-all-sm {
     margin: 0.5rem;
 }
+.-m-all,
 .-m-all-md {
     margin: 1rem;
 }
@@ -112,6 +117,7 @@
 .-p-y-sm {
     padding-top: 0.5rem;
 }
+.-p-top,
 .-p-top-md,
 .-p-y-md {
     padding-top: 1rem;
@@ -134,6 +140,7 @@
 .-p-y-sm {
     padding-bottom: 0.5rem;
 }
+.-p-bottom,
 .-p-bottom-md,
 .-p-y-md {
     padding-bottom: 1rem;
@@ -156,6 +163,7 @@
 .-p-x-sm {
     padding-left: 0.5rem;
 }
+.-p-left,
 .-p-left-md,
 .-p-x-md {
     padding-left: 1rem;
@@ -178,6 +186,7 @@
 .-p-x-sm {
     padding-right: 0.5rem;
 }
+.-p-right,
 .-p-right-md,
 .-p-x-md {
     padding-right: 1rem;
@@ -199,6 +208,7 @@
 .-p-all-sm {
     padding: 0.5rem;
 }
+.-p-all,
 .-p-all-md {
     padding: 1rem;
 }
