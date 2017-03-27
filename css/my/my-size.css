@@ -1,36 +1,92 @@
-.-x-m,
-.-x-12 { width: 100%; }
-.-x-11 { width: 91.666667%; }
-.-x-10 { width: 83.333333%; }
-.-x-9 { width: 75%; }
-.-x-8 { width: 66.666667%; }
-.-x-7 { width: 58.333333%; }
-.-x-6 { width: 50%; }
-.-x-5 { width: 41.666667%; }
-.-x-4 { width: 33.333333%; }
-.-x-3 { width: 25%; }
-.-x-2 { width: 16.666667%; }
-.-x-1 { width: 8.333333%; }
-
-.-y-12, .-y-11, .-y-10,
-.-y-9, .-y-8, .-y-7,
-.-y-6, .-y-5, .-y-4,
-.-y-3, .-y-2, .-y-1 {
-    height: 0;
-    display: table;
+/* width */
+.my-w-1 {
+  width: 8.333333%;
+}
+.my-w-2 {
+  width: 16.666667%;
+}
+.my-w-3 {
+  width: 25%;
+}
+.my-w-4 {
+  width: 33.333333%;
+}
+.my-w-5 {
+  width: 41.666667%;
+}
+.my-w-6 {
+  width: 50%;
+}
+.my-w-7 {
+  width: 58.333333%;
+}
+.my-w-8 {
+  width: 66.666667%;
+}
+.my-w-9 {
+  width: 75%;
+}
+.my-w-10 {
+  width: 83.333333%;
+}
+.my-w-11 {
+  width: 91.666667%;
+}
+.my-w,
+.my-w-12 {
+  width: 100%;
 }
 
-.-y-m { height: 100%; }
+.my-h-12, .my-h-11, .my-h-10, .my-h-9, .my-h-8,
+.my-h-7, .my-h-6, .my-h-5, .my-h-4, .my-h-3,
+.my-h-2, .my-h-1 {
+  
+}
 
-.-y-12 { min-height: 100%; }
-.-y-11 { min-height: 91.666667%; }
-.-y-10 { min-height: 83.333333%; }
-.-y-9 { min-height: 75%; }
-.-y-8 { min-height: 66.666667%; }
-.-y-7 { min-height: 58.333333%; }
-.-y-6 { min-height: 50%; }
-.-y-5 { min-height: 41.666667%; }
-.-y-4 { min-height: 33.333333%; }
-.-y-3 { min-height: 25%; }
-.-y-2 { min-height: 16.666667%; }
-.-y-1 { min-height: 8.333333%; }
+/* height */
+.my-h {
+  height: 100%;
+}
+.my-h-auto {
+  height: auto;
+}
+.my-h-0 {
+  height: 0;
+}
+.my-h-1 {
+  min-height: 8.333333%;
+}
+.my-h-2 {
+  min-height: 16.666667%;
+}
+.my-h-3 {
+  min-height: 25%;
+}
+.my-h-4 {
+  min-height: 33.333333%;
+  height: 33.333333%;
+}
+.my-h-5 {
+  min-height: 41.666667%;
+}
+.my-h-6 {
+  min-height: 50%;
+}
+.my-h-7 {
+  min-height: 58.333333%;
+}
+.my-h-8 {
+  min-height: 66.666667%;
+}
+.my-h-9 {
+  min-height: 75%;
+}
+.my-h-10 {
+  min-height: 83.333333%;
+}
+.my-h-11 {
+  min-height: 91.666667%;
+}
+.my-h-12 {
+  min-height: 100%;
+}
