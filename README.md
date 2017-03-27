@@ -1,2 +1,2 @@
 # project-my
-"My" personalized CSS, JavaScript, and some (?) jQuery.
+"My" personal CSS framework.
