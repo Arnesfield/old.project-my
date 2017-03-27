@@ -1,58 +1,87 @@
 /* alignment */
-.-t-center {
-    text-align: center;
+.my-t-c {
+  text-align: center;
 }
-.-t-justify {
-    text-align: justify;
+.my-t-j {
+  text-align: justify;
 }
-.-t-left {
-    text-align: left;
+.my-t-l {
+  text-align: left;
 }
-.-t-right {
-    text-align: right;
+.my-t-r {
+  text-align: right;
+}
+
+/* font sizes */
+.my-fs {
+  font-size: 1rem;
+}
+.my-fs-1 {
+  font-size: 115%;
+}
+.my-fs-2 {
+  font-size: 125%;
+}
+.my-fs-3 {
+  font-size: 150%;
+}
+.my-fs-4 {
+  font-size: 200%;
+}
+.my-fs-5 {
+  font-size: 250%;
 }
 
 /* letter spacing */
-.-l-space-sm {
-    letter-spacing: 0.25rem;
+.my-ls-1 {
+  letter-spacing: 0.15em;
 }
-.-l-space,
-.-l-space-md {
-    letter-spacing: 0.5rem;
+.my-ls-2 {
+  letter-spacing: 0.25em;
 }
-.-l-space-lg {
-    letter-spacing: 1rem;
+.my-ls,
+.my-ls-3 {
+  letter-spacing: 0.5em;
 }
-.-l-space-xl {
-    letter-spacing: 1.5rem;
+.my-ls-4 {
+  letter-spacing: 1em;
+}
+.my-ls-5 {
+  letter-spacing: 1.5em;
 }
 
 /* word spacing */
-.-w-space-sm {
-    word-spacing: 0.25rem;
+.my-ws-1 {
+  word-spacing: 0.15em;
 }
-.-w-space,
-.-w-space-md {
-    word-spacing: 0.5rem;
+.my-ws-2 {
+  word-spacing: 0.25em;
 }
-.-w-space-lg {
-    word-spacing: 1rem;
+.my-ws,
+.my-ws-3 {
+  word-spacing: 0.5em;
 }
-.-w-space-xl {
-    word-spacing: 1.5rem;
+.my-ws-4 {
+  word-spacing: 1em;
+}
+.my-ws-5 {
+  word-spacing: 1.5em;
 }
 
 /* line height */
-.-lh-sm {
-    line-height: 2.75rem;
+.my-lh-1 {
+  line-height: 1.25em;
 }
-.-lh,
-.-lh-md {
-    line-height: 3rem;
+.my-lh-2 {
+  line-height: 1.75em;
 }
-.-lh-lg {
-    line-height: 3.5rem;
+.my-lh,
+.my-lh-3 {
+  line-height: 2em;
 }
-.-lh-xl {
-    line-height: 4rem;
+.my-lh-4 {
+  line-height: 2.5em;
+}
+.my-lh-5 {
+  line-height: 3em;
 }
