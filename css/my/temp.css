@@ -1,28 +1,38 @@
-.-xx-b {
-    border: 1px solid black;
+.x-b {
+  border: 1px solid black;
 }
-.-xx-b-1 {
-    border: 1px solid red;
+.x-b-1 {
+  border: 1px solid red;
 }
-.-xx-b-2 {
-    border: 1px solid green;
+.x-b-2 {
+  border: 1px solid green;
 }
-.-xx-b-3 {
-    border: 1px solid blue;
-}
-
-.-xx-bg {
-    background-color: rgba(200,200,200,0.8);
+.x-b-3 {
+  border: 1px solid blue;
 }
 
-.-xx-bg-1 {
-    background-color: rgba(140,140,140,0.8);
+.x-bg {
+  background-color: rgba(200,200,200,0.8);
 }
 
-.-xx-bg-2 {
-    background-color: rgba(80,90,100,0.8);
+.x-bg-1 {
+  background-color: rgba(140,140,140,0.8);
 }
 
-.-xx-remove {
-    display: none;
+.x-bg-2 {
+  background-color: rgba(80,90,100,0.8);
+}
+
+.x-remove {
+  display: none;
+}
+
+.x-red {
+  background-color: red;
+}
+.x-green {
+  background-color: green;
+}
+.x-blue {
+  background-color: blue;
 }
