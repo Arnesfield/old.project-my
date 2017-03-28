@@ -1,34 +1,36 @@
-/* specify x then y */
-.-pos.-flex {
-    display: flex;
+/* flex */
+.my-flex,
+.my-center,
+.my-left,
+.my-right {
+  display: flex;
 }
-.-center {
-    justify-content: center;
+.my-center {
+  justify-content: center;
 }
-.-left {
-    justify-content: flex-start;
+.my-left {
+  justify-content: flex-start;
 }
-.-right {
-    justify-content: flex-end;
+.my-right {
+  justify-content: flex-end;
 }
-.-pos.-flex > .-top {
-    align-self: flex-start;
+.my-top {
+  align-self: flex-start;
 }
-.-pos.-flex > .-bottom {
-    align-self: flex-end;
+.my-bottom {
+  align-self: flex-end;
 }
-.-pos.-flex > .-middle {
-    align-self: center;
+.my-middle {
+  align-self: center;
 }
 
 /* position */
-.-pos.-rel,
-.-pos.-ready {
-    position: relative;
+.my-rel {
+  position: relative;
 }
-.-pos.-abs  {
-    position: absolute;
+.my-abs {
+  position: absolute;
 }
-.-pos.-fix {
-    position: fixed;
+.my-fix {
+  position: fixed;
 }
