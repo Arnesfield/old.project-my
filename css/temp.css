@@ -1,3 +1,23 @@
+/* images */
+.img-0 {
+    background-image: url('../../images/img-0.jpg');
+}
+.img-1 {
+    background-image: url('../../images/img-1.jpg');
+}
+.img-2 {
+    background-image: url('../../images/img-2.jpg');
+}
+.img-3 {
+    background-image: url('../../images/img-3.jpg');
+}
+.img-4 {
+    background-image: url('../../images/img-4.jpg');
+}
+.img-5 {
+    background-image: url('../../images/img-5.jpg');
+}
+
 .x-b {
   border: 1px solid black;
 }
